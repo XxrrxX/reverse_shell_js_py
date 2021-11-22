@@ -12,7 +12,7 @@ s.bind((host,port))
 #Aceptar con + n max
 s.listen(10)
 print("=================================")
-print ("Estableciendo conexion :"+str(port))
+print ("Estableciendo conexion...")
 print("=================================")
 def aceptar_conexiones():
  conn,addr = s.accept()
